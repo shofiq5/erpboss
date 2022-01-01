@@ -12,7 +12,6 @@
   "department",
   "designation",
   "branch",
-  "payroll_cost_center",
   "column_break1",
   "status",
   "journal_entry",
@@ -329,7 +328,7 @@
   {
    "fieldname": "earning_deduction",
    "fieldtype": "Section Break",
-   "label": "Earning & Deduction",
+   "label": "Earnings & Deductions",
    "oldfieldtype": "Section Break"
   },
   {
@@ -380,7 +379,7 @@
    "depends_on": "total_loan_repayment",
    "fieldname": "loan_repayment",
    "fieldtype": "Section Break",
-   "label": "Loan repayment"
+   "label": "Loan Repayment"
   },
   {
    "fieldname": "loans",
@@ -425,7 +424,7 @@
   {
    "fieldname": "net_pay_info",
    "fieldtype": "Section Break",
-   "label": "net pay info"
+   "label": "Net Pay Info"
   },
   {
    "fieldname": "net_pay",
@@ -460,15 +459,6 @@
    "oldfieldtype": "Data",
    "options": "Salary Slip",
    "print_hide": 1,
-   "read_only": 1
-  },
-  {
-   "fetch_from": "employee.payroll_cost_center",
-   "fetch_if_empty": 1,
-   "fieldname": "payroll_cost_center",
-   "fieldtype": "Link",
-   "label": "Payroll Cost Center",
-   "options": "Cost Center",
    "read_only": 1
   },
   {
@@ -647,7 +637,7 @@
  "idx": 9,
  "is_submittable": 1,
  "links": [],
- "modified": "2021-09-01 10:35:52.374549",
+ "modified": "2021-12-23 11:47:47.098248",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Salary Slip",
